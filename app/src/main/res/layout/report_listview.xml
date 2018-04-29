@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/nameReportTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textSize="17sp"
+            tools:text="Name"
+            android:textColor="#000"
+            />
+        <TextView
+            android:id="@+id/categoryReportTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:textSize="17sp"
+            tools:text="Category"
+            android:textColor="#000"
+            />
+        <TextView
+            android:id="@+id/amountReportTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="17sp"
+            tools:text="Amount"
+            android:textColor="#000"
+            />
+        <TextView
+            android:id="@+id/dateReportTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:textSize="17sp"
+            tools:text="Date"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+
+</LinearLayout>

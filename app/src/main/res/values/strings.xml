@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ExpanseManager</string>
+    <array name="expanseCatagory">
+        <item>Grocery</item>
+        <item>Utility</item>
+        <item>Personal</item>
+        <item>Housing</item>
+        <item>Health Care</item>
+        <item>Entertainment</item>
+        <item>Transport</item>
+        <item>Others</item>
+    </array>
+</resources>
